@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 980px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.logo > img {
+  max-width: 150px;
+}
+
+.w-full {
+  max-width: 100%;
+}
+
+.full {
+  width: 100%;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+/*==================== Padding, Margin ====================*/
+.padding {
+  padding: 16px;
+}
+
+.p-tb-1 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.p-tb-2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.p-tb-4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.p-tb-6 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.m-top {
+  margin-top: 16px;
+}
+.m-tb-1 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.m-tb-2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.m-tb-4 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.m-left-8 {
+  margin-left: 24px;
+}
+
+.m-right-4 {
+  margin-right: 16px;
+}
+
+.m-lr-4 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+/*==================== FLEX ====================*/
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.jus-around {
+  justify-content: space-around;
+}
+
+.jus-between {
+  justify-content: space-between;
+}
+
+/*==================== COLOR ====================*/
+.white-color {
+  color: #fff;
+}
+
+.black-color {
+  color: #000;
+}
+
+.brown-color {
+  color: brown;
+}
+
+.bgc-blue {
+  background-color: rgb(38, 37, 88);
+}
+
+.bgc-orange {
+  background-color: orange;
+}
+
+/*==================== Underline, List style, cursor, opacity ====================*/
+.no-underline {
+  text-decoration: none;
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.a\:hover-underline:hover {
+  text-decoration: underline;
+}
+
+.corsor-point {
+  cursor: pointer;
+}
+
+.opacity\:hover:hover {
+  opacity: 0.8;
+}
+
+/*==================== GRID ====================*/
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gap-5 {
+  grid-gap: 20px;
+}
+
+.gap-6 {
+  grid-gap: 24px;
+}
+
+.gap-7 {
+  grid-gap: 28px;
+}
+
+.gap-8 {
+  grid-gap: 32px;
+}
+
+/*==================== BODER ====================*/
+.boder {
+  border: 1px solid #ccc;
+}
